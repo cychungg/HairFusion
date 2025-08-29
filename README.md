@@ -57,7 +57,7 @@ Extract DensePose of the images in ./data/${dir_name}/images and save them in ./
     cd projects/DensePose
     pip install -e .
     ```
-- run in ./detectron2/projects/DensePose:
+- run in ./detectron2/project/DensePose:
     ```bash
     CUDA_VISIBLE_DEVICES=0 python apply_net.py get configs/densepose_rcnn_R_50_FPN_s1x.yaml https://dl.fbaipublicfiles.com/densepose/densepose_rcnn_R_50_FPN_s1x/165712039/model_final_162be9.pkl ../../../data/${dir_name}/images --output ../../../data/${dir_name}/images-densepose  -v
     ```
@@ -99,3 +99,4 @@ If you find our work useful for your research, please cite us:
 
 ## License
 Licensed under the CC BY-NC-SA 4.0 license [https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode](https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode).
+
